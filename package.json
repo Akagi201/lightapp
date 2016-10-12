@@ -1,15 +1,23 @@
 {
   "name": "lightapp",
-  "author": "Akagi201",
   "version": "0.1.0",
   "description": "A starter kit for Go as backend and React as frontend.",
-  "reposityro": {
-    "type": "git",
-    "url": "https://github.com/Akagi201/lightapp"
-  },
+  "main": "index.jsx",
   "scripts": {
-    "start": "npm run frontend & npm run backend",
-    "frontend": "",
-    "backend": "cd backend; go build"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akagi201/lightapp.git"
+  },
+  "keywords": [
+    "golang",
+    "react"
+  ],
+  "author": "Akagi201 <akagi201@gmail.com> (http://akagi201.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akagi201/lightapp/issues"
+  },
+  "homepage": "https://github.com/Akagi201/lightapp#readme"
 }
