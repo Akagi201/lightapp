@@ -1,0 +1,15 @@
+{
+  "name": "lightapp",
+  "author": "Akagi201",
+  "version": "0.1.0",
+  "description": "A starter kit for Go as backend and React as frontend.",
+  "reposityro": {
+    "type": "git",
+    "url": "https://github.com/Akagi201/lightapp"
+  },
+  "scripts": {
+    "start": "npm run frontend & npm run backend",
+    "frontend": "",
+    "backend": "cd backend; go build"
+  }
+}
